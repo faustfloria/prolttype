@@ -1,0 +1,914 @@
+Microsoft Windows [Version 10.0.17134.285]
+(c) 2018 Microsoft Corporation。保留所有?利。
+
+C:\Users\HASEE>git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+C:\Users\HASEE>git config --global user.email "efp233666998@gmail.com"
+
+C:\Users\HASEE>git config --global user.email "faustfloria"
+
+C:\Users\HASEE>git config --global color.ui true
+
+C:\Users\HASEE>git config --global color.editor vim
+
+C:\Users\HASEE>git config --global alias.co commit
+
+C:\Users\HASEE>git config --global alias.lg "log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cre
+set %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+
+C:\Users\HASEE>dir
+ Volume in drive C has no label.
+ Volume Serial Number is D64C-EAA2
+
+ Directory of C:\Users\HASEE
+
+2018/09/21  下午 01:17    <DIR>          .
+2018/09/21  下午 01:17    <DIR>          ..
+2016/09/11  下午 06:36    <DIR>          .android
+2018/06/29  上午 11:44               186 .bash_history
+2017/09/22  下午 11:06    <DIR>          .eclipse
+2018/09/21  下午 01:17               261 .gitconfig
+2018/06/05  下午 07:06    <DIR>          .idlerc
+2017/09/21  下午 09:32    <DIR>          .jmc
+2017/09/23  下午 11:25    <DIR>          .nbi
+2017/09/23  下午 11:16    <DIR>          .oracle_jre_usage
+2017/09/23  下午 05:41    <DIR>          .p2
+2018/06/04  上午 11:38    <DIR>          .VirtualBox
+2017/10/24  下午 10:12    <DIR>          .vscode
+2018/08/25  下午 03:29    <DIR>          3D Objects
+2018/05/30  下午 09:53    <DIR>          ansel
+2018/08/25  下午 03:29    <DIR>          Contacts
+2018/09/21  下午 12:57    <DIR>          Desktop
+2018/09/03  上午 10:34    <DIR>          Documents
+2018/09/21  下午 12:57    <DIR>          Downloads
+2018/06/26  下午 10:06    <DIR>          dumps
+2017/09/22  下午 11:02    <DIR>          eclipse
+2017/09/23  下午 05:34    <DIR>          eclipse-workspace
+2017/01/06  下午 09:14    <DIR>          fancy
+2018/09/10  下午 12:21    <DIR>          Favorites
+2016/10/02  下午 05:31                47 FunShion.ini
+2015/12/16  下午 05:29    <DIR>          Intel
+2018/08/25  下午 03:29    <DIR>          Links
+2018/08/25  下午 03:29    <DIR>          Music
+2018/09/21  下午 12:57    <DIR>          OneDrive
+2018/08/25  下午 03:29    <DIR>          Pictures
+2018/06/24  上午 11:29    <DIR>          PycharmProjects
+2018/06/29  上午 11:40    <DIR>          runoob
+2018/08/25  下午 03:29    <DIR>          Saved Games
+2018/08/25  下午 03:29    <DIR>          Searches
+2017/10/24  下午 11:46    <DIR>          source
+2018/09/20  下午 04:24    <DIR>          Videos
+2016/09/22  下午 04:49            17,408 WebpageIcons.db
+               4 File(s)         17,902 bytes
+              33 Dir(s)  36,947,742,720 bytes free
+
+C:\Users\HASEE>cd Videos
+
+C:\Users\HASEE\Videos>cd //
+The system cannot find the path specified.
+
+C:\Users\HASEE\Videos>cd \\
+'\\'
+CMD does not support UNC paths as current directories.
+
+C:\Users\HASEE\Videos>E：
+'E：' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HASEE\Videos>cd E
+The system cannot find the path specified.
+
+C:\Users\HASEE\Videos>cd ..
+
+C:\Users\HASEE>E
+'E' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HASEE>cd E
+The system cannot find the path specified.
+
+C:\Users\HASEE>cd D
+The system cannot find the path specified.
+
+C:\Users\HASEE>E:/
+'E:/' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HASEE>E:\
+'E:\' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HASEE>cd
+C:\Users\HASEE
+
+C:\Users\HASEE>cd Videos
+
+C:\Users\HASEE\Videos>dc ..
+'dc' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HASEE\Videos>cd ..
+
+C:\Users\HASEE>mkdir prolttype
+
+C:\Users\HASEE>cd prolttype
+
+C:\Users\HASEE\prolttype>git init
+Initialized empty Git repository in C:/Users/HASEE/prolttype/.git/
+
+C:\Users\HASEE\prolttype>dir
+ Volume in drive C has no label.
+ Volume Serial Number is D64C-EAA2
+
+ Directory of C:\Users\HASEE\prolttype
+
+2018/09/21  下午 01:29    <DIR>          .
+2018/09/21  下午 01:29    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  36,945,485,824 bytes free
+
+C:\Users\HASEE\prolttype>dir /adh
+ Volume in drive C has no label.
+ Volume Serial Number is D64C-EAA2
+
+ Directory of C:\Users\HASEE\prolttype
+
+2018/09/21  下午 01:29    <DIR>          .git
+               0 File(s)              0 bytes
+               1 Dir(s)  36,937,129,984 bytes free
+
+C:\Users\HASEE\prolttype>echo helloworld > README.md
+
+C:\Users\HASEE\prolttype>dir
+ Volume in drive C has no label.
+ Volume Serial Number is D64C-EAA2
+
+ Directory of C:\Users\HASEE\prolttype
+
+2018/09/21  下午 01:33    <DIR>          .
+2018/09/21  下午 01:33    <DIR>          ..
+2018/09/21  下午 01:33                13 README.md
+               1 File(s)             13 bytes
+               2 Dir(s)  36,933,185,536 bytes free
+
+C:\Users\HASEE\prolttype>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\HASEE\prolttype>git add README.md
+
+C:\Users\HASEE\prolttype>fit status
+'fit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HASEE\prolttype>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   README.md
+
+
+C:\Users\HASEE\prolttype>git su
+git: 'su' is not a git command. See 'git --help'.
+
+The most similar command is
+        push
+
+C:\Users\HASEE\prolttype>git co
+[master (root-commit) 0b13a44] add README.as
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+C:\Users\HASEE\prolttype>git lg
+* 0b13a44 - (HEAD -> master) add README.as (5 minutes ago) <unknown>
+
+C:\Users\HASEE\prolttype>git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+gui.recentrepo=E:/tutorial
+user.email=faustfloria
+color.ui=true
+color.editor=vim
+alias.co=commit
+alias.lg=log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%a
+n>%Creset' --abbrev-commit --
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+C:\Users\HASEE\prolttype>git config --global user.name "faustfloria"
+
+C:\Users\HASEE\prolttype>git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+gui.recentrepo=E:/tutorial
+user.email=faustfloria
+user.name=faustfloria
+color.ui=true
+color.editor=vim
+alias.co=commit
+alias.lg=log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%a
+n>%Creset' --abbrev-commit --
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+
+C:\Users\HASEE\prolttype>git config --global user.email "efp233666998@gmail.com"
+
+C:\Users\HASEE\prolttype>git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+gui.recentrepo=E:/tutorial
+user.email=efp233666998@gmail.com
+user.name=faustfloria
+color.ui=true
+color.editor=vim
+alias.co=commit
+alias.lg=log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%a
+n>%Creset' --abbrev-commit --
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+
+C:\Users\HASEE\prolttype>git lg
+* 0b13a44 - (HEAD -> master) add README.as (10 minutes ago) <unknown>
+
+C:\Users\HASEE\prolttype>git commit --amend --author="faustfloria <efp233666998@gmail.com>"
+[master b3d544b] add README.as
+ Date: Fri Sep 21 13:41:07 2018 +0800
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+C:\Users\HASEE\prolttype>git lg
+* b3d544b - (HEAD -> master) add README.as (17 seconds ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git remote add origin https://github.com/faustfloria/prolttype.git
+
+C:\Users\HASEE\prolttype>git remote -v
+origin  https://github.com/faustfloria/prolttype.git (fetch)
+origin  https://github.com/faustfloria/prolttype.git (push)
+
+C:\Users\HASEE\prolttype>git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 235 bytes | 235.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/faustfloria/prolttype/pull/new/master
+remote:
+To https://github.com/faustfloria/prolttype.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\HASEE\prolttype>git lg
+* b3d544b - (HEAD -> master, origin/master) add README.as (6 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\HASEE\prolttype>echo programing > echo.txt
+
+C:\Users\HASEE\prolttype>cat echo,txt
+'cat' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HASEE\prolttype>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        echo.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\HASEE\prolttype>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HASEE\prolttype>dir
+ Volume in drive C has no label.
+ Volume Serial Number is D64C-EAA2
+
+ Directory of C:\Users\HASEE\prolttype
+
+2018/09/21  下午 02:01    <DIR>          .
+2018/09/21  下午 02:01    <DIR>          ..
+2018/09/21  下午 02:01                13 echo.txt
+2018/09/21  下午 01:33                13 README.md
+               2 File(s)             26 bytes
+               2 Dir(s)  36,929,265,664 bytes free
+
+C:\Users\HASEE\prolttype>echo mmp >> README.md
+
+C:\Users\HASEE\prolttype>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        echo.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\HASEE\prolttype>git add echo.txt
+
+C:\Users\HASEE\prolttype>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   echo.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+
+C:\Users\HASEE\prolttype>git co -m "add echo.txt"
+[master a0b36e5] add echo.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 echo.txt
+
+C:\Users\HASEE\prolttype>lg
+'lg' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HASEE\prolttype>git lg
+* a0b36e5 - (HEAD -> master) add echo.txt (17 seconds ago) <faustfloria>
+* b3d544b - (origin/master) add README.as (13 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\HASEE\prolttype>echo git lucky > lucky.txt
+
+C:\Users\HASEE\prolttype>dir
+ Volume in drive C has no label.
+ Volume Serial Number is D64C-EAA2
+
+ Directory of C:\Users\HASEE\prolttype
+
+2018/09/21  下午 02:08    <DIR>          .
+2018/09/21  下午 02:08    <DIR>          ..
+2018/09/21  下午 02:01                13 echo.txt
+2018/09/21  下午 02:08                12 lucky.txt
+2018/09/21  下午 02:02                19 README.md
+               3 File(s)             44 bytes
+               2 Dir(s)  36,913,393,664 bytes free
+
+C:\Users\HASEE\prolttype>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\HASEE\prolttype>git add .
+
+C:\Users\HASEE\prolttype>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
+        new file:   lucky.txt
+
+
+C:\Users\HASEE\prolttype>git commit
+[master c6d9915] just fun
+ 2 files changed, 2 insertions(+)
+ create mode 100644 lucky.txt
+
+C:\Users\HASEE\prolttype>git lg
+* c6d9915 - (HEAD -> master) just fun (85 seconds ago) <faustfloria>
+* a0b36e5 - add echo.txt (5 minutes ago) <faustfloria>
+* b3d544b - (origin/master) add README.as (19 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (7/7), 597 bytes | 298.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To https://github.com/faustfloria/prolttype.git
+   b3d544b..c6d9915  master -> master
+
+C:\Users\HASEE\prolttype>gir lg
+'gir' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HASEE\prolttype>git lg
+* c6d9915 - (HEAD -> master, origin/master) just fun (3 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (7 minutes ago) <faustfloria>
+* b3d544b - add README.as (20 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git branch develop
+
+C:\Users\HASEE\prolttype>git lg
+* c6d9915 - (HEAD -> master, origin/master, develop) just fun (6 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (10 minutes ago) <faustfloria>
+* b3d544b - add README.as (24 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git checkout develop
+Switched to branch 'develop'
+
+C:\Users\HASEE\prolttype>git lg
+* c6d9915 - (HEAD -> develop, origin/master, master) just fun (9 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (13 minutes ago) <faustfloria>
+* b3d544b - add README.as (27 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>echo 666 >999.txt
+
+C:\Users\HASEE\prolttype>git lg
+* c6d9915 - (HEAD -> develop, origin/master, master) just fun (10 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (14 minutes ago) <faustfloria>
+* b3d544b - add README.as (27 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git status
+On branch develop
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        999.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\HASEE\prolttype>git add .
+
+C:\Users\HASEE\prolttype>git commit
+[develop bcb9ccd] 666
+ 1 file changed, 1 insertion(+)
+ create mode 100644 999.txt
+
+C:\Users\HASEE\prolttype>git lg
+* bcb9ccd - (HEAD -> develop) 666 (57 seconds ago) <faustfloria>
+* c6d9915 - (origin/master, master) just fun (12 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (16 minutes ago) <faustfloria>
+* b3d544b - add README.as (29 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Users\HASEE\prolttype>git checkin master
+git: 'checkin' is not a git command. See 'git --help'.
+
+The most similar commands are
+        check-ignore
+        checkout
+
+C:\Users\HASEE\prolttype>git checkin
+git: 'checkin' is not a git command. See 'git --help'.
+
+The most similar commands are
+        check-ignore
+        checkout
+
+C:\Users\HASEE\prolttype>git checkout master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Users\HASEE\prolttype>git checkout origin/master
+Note: checking out 'origin/master'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at c6d9915 just fun
+
+C:\Users\HASEE\prolttype>git lg
+* bcb9ccd - (develop) 666 (6 minutes ago) <faustfloria>
+* c6d9915 - (HEAD, origin/master, master) just fun (17 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (21 minutes ago) <faustfloria>
+* b3d544b - add README.as (34 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git status
+HEAD detached at origin/master
+nothing to commit, working tree clean
+
+C:\Users\HASEE\prolttype>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Users\HASEE\prolttype>git lg
+* bcb9ccd - (develop) 666 (8 minutes ago) <faustfloria>
+* c6d9915 - (HEAD -> master, origin/master) just fun (19 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (23 minutes ago) <faustfloria>
+* b3d544b - add README.as (36 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>echo duck > fduck.txt
+
+C:\Users\HASEE\prolttype>git lg
+* bcb9ccd - (develop) 666 (9 minutes ago) <faustfloria>
+* c6d9915 - (HEAD -> master, origin/master) just fun (20 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (24 minutes ago) <faustfloria>
+* b3d544b - add README.as (37 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        fduck.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\HASEE\prolttype>git add .
+
+C:\Users\HASEE\prolttype>git commit
+[master f1ad458] fuck the duck in the buck
+ 1 file changed, 1 insertion(+)
+ create mode 100644 fduck.txt
+
+C:\Users\HASEE\prolttype>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\HASEE\prolttype>git lg
+* f1ad458 - (HEAD -> master) fuck the duck in the buck (46 seconds ago) <faustfloria>
+| * bcb9ccd - (develop) 666 (10 minutes ago) <faustfloria>
+|/
+* c6d9915 - (origin/master) just fun (21 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (25 minutes ago) <faustfloria>
+* b3d544b - add README.as (38 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 348 bytes | 174.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/faustfloria/prolttype.git
+   c6d9915..f1ad458  master -> master
+
+C:\Users\HASEE\prolttype>git lg
+* f1ad458 - (HEAD -> master, origin/master) fuck the duck in the buck (3 minutes ago) <faustfloria>
+| * bcb9ccd - (develop) 666 (12 minutes ago) <faustfloria>
+|/
+* c6d9915 - just fun (23 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (27 minutes ago) <faustfloria>
+* b3d544b - add README.as (40 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git checkout develop
+Switched to branch 'develop'
+
+C:\Users\HASEE\prolttype>git lg
+* f1ad458 - (origin/master, master) fuck the duck in the buck (4 minutes ago) <faustfloria>
+| * bcb9ccd - (HEAD -> develop) 666 (13 minutes ago) <faustfloria>
+|/
+* c6d9915 - just fun (24 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (28 minutes ago) <faustfloria>
+* b3d544b - add README.as (41 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git push
+fatal: The current branch develop has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin develop
+
+
+C:\Users\HASEE\prolttype>git push -u origin
+fatal: The current branch develop has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin develop
+
+
+C:\Users\HASEE\prolttype>git push -u origin develop
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 331 bytes | 331.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/faustfloria/prolttype/pull/new/develop
+remote:
+To https://github.com/faustfloria/prolttype.git
+ * [new branch]      develop -> develop
+Branch 'develop' set up to track remote branch 'develop' from 'origin'.
+
+C:\Users\HASEE\prolttype>git lg
+* f1ad458 - (origin/master, master) fuck the duck in the buck (5 minutes ago) <faustfloria>
+| * bcb9ccd - (HEAD -> develop, origin/develop) 666 (15 minutes ago) <faustfloria>
+|/
+* c6d9915 - just fun (26 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (30 minutes ago) <faustfloria>
+* b3d544b - add README.as (43 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git rebase -i HEAD~1
+[detached HEAD d232287] 999
+ Date: Fri Sep 21 14:20:24 2018 +0800
+ 1 file changed, 1 insertion(+)
+ create mode 100644 999.txt
+Successfully rebased and updated refs/heads/develop.
+
+C:\Users\HASEE\prolttype>git lg
+* d232287 - (HEAD -> develop) 999 (23 seconds ago) <faustfloria>
+| * f1ad458 - (origin/master, master) fuck the duck in the buck (30 minutes ago) <faustfloria>
+|/
+| * bcb9ccd - (origin/develop) 666 (39 minutes ago) <faustfloria>
+|/
+* c6d9915 - just fun (50 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (54 minutes ago) <faustfloria>
+* b3d544b - add README.as (67 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git push -f
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 337 bytes | 337.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/faustfloria/prolttype.git
+ + bcb9ccd...d232287 develop -> develop (forced update)
+
+C:\Users\HASEE\prolttype>git lg
+* d232287 - (HEAD -> develop, origin/develop) 999 (4 minutes ago) <faustfloria>
+| * f1ad458 - (origin/master, master) fuck the duck in the buck (34 minutes ago) <faustfloria>
+|/
+* c6d9915 - just fun (54 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (58 minutes ago) <faustfloria>
+* b3d544b - add README.as (71 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>echo loli > loli.txt
+
+C:\Users\HASEE\prolttype>echo jojo > jojo.txr
+
+C:\Users\HASEE\prolttype>echo jojo > jojo.txt
+
+C:\Users\HASEE\prolttype>git status
+On branch develop
+Your branch is up to date with 'origin/develop'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        jojo.txr
+        jojo.txt
+        loli.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\HASEE\prolttype>git add .
+
+C:\Users\HASEE\prolttype>git commit
+[develop 357d0ef] for test
+ 3 files changed, 3 insertions(+)
+ create mode 100644 jojo.txr
+ create mode 100644 jojo.txt
+ create mode 100644 loli.txt
+
+C:\Users\HASEE\prolttype>git lg
+* 357d0ef - (HEAD -> develop) for test (33 seconds ago) <faustfloria>
+* d232287 - (origin/develop) 999 (6 minutes ago) <faustfloria>
+| * f1ad458 - (origin/master, master) fuck the duck in the buck (36 minutes ago) <faustfloria>
+|/
+* c6d9915 - just fun (56 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (60 minutes ago) <faustfloria>
+* b3d544b - add README.as (73 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>echo doc >rook.txt
+
+C:\Users\HASEE\prolttype>git status
+On branch develop
+Your branch is ahead of 'origin/develop' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        rook.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\HASEE\prolttype>git add rook.txt
+
+C:\Users\HASEE\prolttype>git commit
+[develop 1ce3f49] rook
+ 1 file changed, 1 insertion(+)
+ create mode 100644 rook.txt
+
+C:\Users\HASEE\prolttype>git lg
+* 1ce3f49 - (HEAD -> develop) rook (22 seconds ago) <faustfloria>
+* 357d0ef - for test (2 minutes ago) <faustfloria>
+* d232287 - (origin/develop) 999 (8 minutes ago) <faustfloria>
+| * f1ad458 - (origin/master, master) fuck the duck in the buck (38 minutes ago) <faustfloria>
+|/
+* c6d9915 - just fun (58 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (62 minutes ago) <faustfloria>
+* b3d544b - add README.as (75 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git commit --amend
+[develop 1eb2f4a] rook gign
+ Date: Fri Sep 21 15:06:49 2018 +0800
+ 1 file changed, 1 insertion(+)
+ create mode 100644 rook.txt
+
+C:\Users\HASEE\prolttype>git lg
+* 1eb2f4a - (HEAD -> develop) rook gign (49 seconds ago) <faustfloria>
+* 357d0ef - for test (4 minutes ago) <faustfloria>
+* d232287 - (origin/develop) 999 (10 minutes ago) <faustfloria>
+| * f1ad458 - (origin/master, master) fuck the duck in the buck (40 minutes ago) <faustfloria>
+|/
+* c6d9915 - just fun (60 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (64 minutes ago) <faustfloria>
+* b3d544b - add README.as (77 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git rebase -i HEAD~2
+[detached HEAD 00959df] for test mmp
+ Date: Fri Sep 21 15:05:02 2018 +0800
+ 3 files changed, 3 insertions(+)
+ create mode 100644 jojo.txr
+ create mode 100644 jojo.txt
+ create mode 100644 loli.txt
+Successfully rebased and updated refs/heads/develop.
+
+C:\Users\HASEE\prolttype>git lg
+* fcff2cc - (HEAD -> develop) rook gign (4 seconds ago) <faustfloria>
+* 00959df - for test mmp (40 seconds ago) <faustfloria>
+* d232287 - (origin/develop) 999 (13 minutes ago) <faustfloria>
+| * f1ad458 - (origin/master, master) fuck the duck in the buck (42 minutes ago) <faustfloria>
+|/
+* c6d9915 - just fun (62 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (66 minutes ago) <faustfloria>
+* b3d544b - add README.as (80 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (7/7), 637 bytes | 318.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/faustfloria/prolttype.git
+   d232287..fcff2cc  develop -> develop
+
+C:\Users\HASEE\prolttype>git lg
+* fcff2cc - (HEAD -> develop, origin/develop) rook gign (2 minutes ago) <faustfloria>
+* 00959df - for test mmp (2 minutes ago) <faustfloria>
+* d232287 - 999 (14 minutes ago) <faustfloria>
+| * f1ad458 - (origin/master, master) fuck the duck in the buck (44 minutes ago) <faustfloria>
+|/
+* c6d9915 - just fun (64 minutes ago) <faustfloria>
+* a0b36e5 - add echo.txt (68 minutes ago) <faustfloria>
+* b3d544b - add README.as (81 minutes ago) <faustfloria>
+
+C:\Users\HASEE\prolttype>#
+
+
+
+
+
+
+
+
+
